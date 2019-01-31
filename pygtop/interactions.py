@@ -44,7 +44,7 @@ class Interaction:
         affinity_values = tuple(sorted([float(val) for val in affinity_values]))
         self._affinity_low = affinity_values[0] if affinity_values else None
         self._affinity_high = affinity_values[-1] if affinity_values else None
-        self._affinity_type = json_data["affinityType"]
+        self._affinity_type = json_data["affinityParameter"]
 
 
     def __repr__(self):
