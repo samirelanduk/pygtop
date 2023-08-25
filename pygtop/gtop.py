@@ -3,7 +3,7 @@
 import json
 import requests
 
-ROOT_URL = "http://www.guidetopharmacology.org/services/"
+ROOT_URL = "https://www.guidetopharmacology.org/services/"
 
 def get_json_from_gtop(query, attempts=5):
     """Issues a query to the GtoP web services, and returns the resulting JSON.
